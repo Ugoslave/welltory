@@ -5,13 +5,7 @@
 }
 
 @font-face {
-  src: url('./Montserrat-Bold.ttf') format('ttf');
-  font-family: 'Montserrat';
-  font-weight: bold;
-}
-
-@font-face {
-  src: url('./Montserrat-Black.ttf') format('ttf');
-  font-family: 'Montserrat';
-  font-weight: 900;
+  src: url('./Steinbeck-Regular.otf') format('otf');
+  font-family: 'Steinbeck';
+  font-weight: normal;
 }
