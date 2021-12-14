@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Welltory plans">
   <meta name="author" content="applicant">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Welltory Plans</title>
 </head>
 <body>
@@ -50,7 +50,7 @@
 
 
 
-        <div class="plans__element">
+        <div class="plans__element plans__element_place_annual-bill plans__element_active">
 
           <div class="plans__coupon plans__coupon_place_annual-bill">
             <p class="plans__amount plans__amount_place_annual-bill">– 25%</p>
@@ -92,8 +92,8 @@
           <div class="plan-choice__plan-box">
             <p class="plan-choice__free-title">for free</p>
             <p class="plan-choice__free-title plan-choice__free-title_version_mobile">Free</p>
-            <p class="plan-choice__pro-title">in Pro</p>
-            <p class="plan-choice__pro-title plan-choice__pro-title_version_mobile">Pro</p>
+            <p class="plan-choice__pro-title plan-choice__title_active">in Pro</p>
+            <p class="plan-choice__pro-title plan-choice__pro-title_version_mobile plan-choice__title_active">Pro</p>
           </div>
         </div>
 
@@ -215,13 +215,13 @@
 
           <li>
             <a href="https://app.welltory.com/user/create-account?destination=%2Fuser%2Fmain%2F" target="_blank" lang="en">
-              <button type="button" class="plan-description__button">go with the free version</button>
+              <button type="button" class="plan-description__button plan-description__button_position_first">go with the free version</button>
             </a>
           </li>
 
           <li>
             <a href="https://app.welltory.com/user/create-account?destination=%2Fuser%2Fmain%2F" target="_blank" lang="en">
-              <button type="button" class="plan-description__button">upgrade now</button>
+              <button type="button" class="plan-description__button plan-description__button_position_last plan-description__button_active">upgrade now</button>
             </a>
           </li>
 
@@ -296,5 +296,6 @@
       </div>
     </footer>
   </div>
+  <script src="./pages/index.js"></script>
 </body>
 </html>
