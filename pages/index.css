@@ -2,13 +2,17 @@
 @import url('../vendor/fonts/fonts.css');
 
 @import url('../blocks/page/page.css');
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
+
 @import url('../blocks/content/content.css');
+
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/__image/logo__image.css');
 @import url('../blocks/logo/__tagline/logo__tagline.css');
 @import url('../blocks/logo/__tagline/_version/logo__tagline_version_mobile.css');
+
 @import url('../blocks/plans/plans.css');
 @import url('../blocks/plans/__element/plans__element.css');
 @import url('../blocks/plans/__element/_active/plans__element_active.css');
@@ -22,9 +26,11 @@
 @import url('../blocks/plans/__cost/_place/plans__cost_place_anuual-bill.css');
 @import url('../blocks/plans/__old-cost/plans__old-cost.css');
 @import url('../blocks/plans/__subtitle/plans__subtitle.css');
+
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__continue/button__continue.css');
 @import url('../blocks/button/__caption/button__caption.css');
+
 @import url('../blocks/plan-choice/plan-choice.css');
 @import url('../blocks/plan-choice/__title/plan-choice__title.css');
 @import url('../blocks/plan-choice/__container/plan-choice__container.css');
@@ -35,6 +41,7 @@
 @import url('../blocks/plan-choice/__pro-title/plan-choice__pro-title.css');
 @import url('../blocks/plan-choice/__pro-title/_version/plan-choice__pro-title_version_mobile.css');
 @import url('../blocks/plan-choice/__pro-title/_active/plan-choice__title_active.css');
+
 @import url('../blocks/plan-description/plan-description.css');
 @import url('../blocks/plan-description/__title/plan-description__title.css');
 @import url('../blocks/plan-description/__title/_version/plan-description__title_version_mobile.css');
@@ -68,6 +75,7 @@
 @import url('../blocks/plan-description/__buttons/plan-description__buttons.css');
 @import url('../blocks/plan-description/__button/plan-description__button.css');
 @import url('../blocks/plan-description/__button/_active/plan-descripton__button_active.css');
+
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__apps-box/footer__apps-box.css');
 @import url('../blocks/footer/__apps-caption/footer__apps-caption.css');
