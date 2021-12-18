@@ -1,0 +1,12 @@
+.plans__title-box {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 22px 0 33px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plans__title-box {
+    padding-top: 19px;
+  }
+}

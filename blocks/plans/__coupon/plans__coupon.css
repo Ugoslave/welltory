@@ -1,0 +1,15 @@
+.plans__coupon {
+  margin: 0;
+  width: 98px;
+  height: 38px;
+  margin-left: 29px;
+  margin-top: -5px;
+  background-color: #89A3FF;
+  border-radius: 0 5px 5px 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plans__coupon {
+    height: 43px;
+  }
+}

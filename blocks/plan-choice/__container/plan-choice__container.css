@@ -1,0 +1,7 @@
+.plan-choice__container {
+  margin: 0;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}

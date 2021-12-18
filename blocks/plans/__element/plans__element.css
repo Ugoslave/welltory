@@ -1,0 +1,52 @@
+.plans__element {
+  margin: 0;
+  width: 347px;
+  min-height: 196px;
+  background: rgba(51, 59, 74, 0.2);
+  border-radius: 4px;
+}
+
+.plans__element:hover {
+  cursor: pointer;
+  animation: scale .7s forwards;
+}
+
+.plans__element:last-child {
+  margin-left: 25px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .plans__element {
+    width: 340px;
+    min-height: 177px;
+  }
+
+  .plans__element:last-child {
+    margin-left: 0;
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .plans__element {
+    width: 337px;
+    min-height: 138px;
+  }
+
+  .plans__element:last-child {
+    margin-left: 0;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .plans__element {
+    width: 300px;
+    min-height: 138px;
+  }
+
+  .plans__element:last-child {
+    margin-left: 0;
+    margin-top: 18px;
+  }
+}

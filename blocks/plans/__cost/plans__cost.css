@@ -1,0 +1,9 @@
+.plans__cost {
+  margin: 0;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #89A3FF;
+}

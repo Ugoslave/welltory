@@ -1,0 +1,9 @@
+.plan-description__mark-box_position_third-row {
+  padding-bottom: 35px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-description__mark-box_position_third-row {
+    padding-top: 20px;
+  }
+}

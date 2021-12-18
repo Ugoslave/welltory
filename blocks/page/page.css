@@ -1,0 +1,30 @@
+@keyframes scale {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(105%);
+  }
+}
+
+.page {
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Montserrat', 'Steinbeck', 'Arial', sans-serif;
+  background-color: #151A22;
+  padding-bottom: 80px;
+  color: #FFFFFF;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page {
+    padding-bottom: 0;
+  }
+}

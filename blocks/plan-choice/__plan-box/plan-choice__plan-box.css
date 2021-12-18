@@ -1,0 +1,11 @@
+.plan-choice__plan-box {
+  margin: 0;
+  min-width: 310px;
+  display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-choice__plan-box {
+    min-width: 128px;
+  }
+}

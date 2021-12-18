@@ -1,0 +1,10 @@
+.plan-description__text_position_second {
+  padding-top: 16px;
+  height: 96px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-description__text_position_second {
+    height: 157px;
+  }
+}

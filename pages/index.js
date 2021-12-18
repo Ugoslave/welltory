@@ -19,8 +19,6 @@ function handlePlanChoice(plan, button, activePlan, activeButton) { // объя�
   activeButton.classList.remove('plan-description__button_active');
 }
 
-
-
 annualButton.addEventListener('click', () => handleCardChoice(annualButton, monthlyButton)); // подключаем "слушатели";
 monthlyButton.addEventListener('click', () => handleCardChoice(monthlyButton, annualButton));
 freePlanBlock.addEventListener('click', () => handlePlanChoice(freePlanBlock, freeButton, proPlanBlock, proButton));

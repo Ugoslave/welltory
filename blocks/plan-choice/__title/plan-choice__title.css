@@ -1,0 +1,24 @@
+.plan-choice__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .plan-choice__title {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .plan-choice__title {
+    padding-left: 0;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

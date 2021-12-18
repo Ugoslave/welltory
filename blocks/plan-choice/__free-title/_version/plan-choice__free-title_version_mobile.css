@@ -1,0 +1,18 @@
+.plan-choice__free-title_version_mobile {
+  display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .plan-choice__free-title_version_mobile {
+    display: block;
+    min-width: 56px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .plan-choice__free-title_version_mobile {
+    display: block;
+    min-width: 56px;
+    margin-left: 10px;
+  }
+}

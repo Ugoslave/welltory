@@ -1,0 +1,9 @@
+.plan-description__mark-box_position_fourth-row {
+  padding-top: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-description__mark-box_position_fourth-row {
+    padding-top: 70px;
+  }
+}

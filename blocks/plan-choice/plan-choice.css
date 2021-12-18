@@ -1,0 +1,15 @@
+.plan-choice {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-choice {
+    padding-top: 48px;
+  }
+}

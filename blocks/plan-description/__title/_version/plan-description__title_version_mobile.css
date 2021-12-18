@@ -1,0 +1,5 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-description__title_version_mobile {
+    padding-top: 78px;
+  }
+}

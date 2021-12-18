@@ -1,0 +1,5 @@
+.plans__element_active {
+  border: solid 1px transparent;
+  border-image: linear-gradient(91.33deg, #89A3FF 0%, #FF6060 54.17%, #FFBF00 100%);
+  border-image-slice: 1;
+}

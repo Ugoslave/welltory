@@ -1,0 +1,9 @@
+.plan-description__mark-box_position_second-row {
+  padding-top: 22px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-description__mark-box_position_second-row {
+    padding-top: 32px;
+  }
+}

@@ -1,0 +1,4 @@
+.footer__social-icon:hover {
+  cursor: pointer;
+  animation: scale .7s forwards;
+}

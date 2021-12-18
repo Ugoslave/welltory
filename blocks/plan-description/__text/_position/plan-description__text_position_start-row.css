@@ -1,0 +1,11 @@
+.plan-description__text_position_start-row {
+  padding-top: 34px;
+  height: 78px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plan-description__text_position_start-row {
+    padding-top: 45px;
+    height: 157px;
+  }
+}

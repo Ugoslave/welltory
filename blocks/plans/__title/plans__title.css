@@ -1,0 +1,14 @@
+.plans__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .plans__title {
+    letter-spacing: 0.02em;
+  }
+}
